@@ -33,7 +33,7 @@ h4 {
   max-height: 120px;
   min-width: 120px;
   background-color: #607D8B;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 .module:hover {
   background-color: #EEE;
@@ -45,6 +45,11 @@ h4 {
 }
 .grid-pad > [class*='col-']:last-of-type {
   padding-right: 20px;
+}
+.icon {
+    position: relative;
+    top: 0px;
+    right: 0px;
 }
 @media (max-width: 600px) {
   .module {
@@ -60,9 +65,3 @@ h4 {
   }
 }
 
-
-/*
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
