@@ -1,11 +1,11 @@
 <h3>Top Heroes</h3>
 <div class="grid grid-pad">
-  <a *ngFor="let hero of heroes"  [routerLink]="['/detail', hero.id]"  class="col-1-4">
+  <a *ngFor="let hero of heroes"  [routerLink]="['/detail', hero.id]"  class="col-1-2">
     <div class="module hero">
 	  <div>
       <h4>{{hero.name}}</h4>
-	  <img class="icon" src="./images/{{hero.fileref}}" alt="Superman" height="42" width="42">
-	  <a href="http://{{hero.fileref}}"> Link </a>
+	    <img class="icon" src="./images/{{hero.fileref}}" alt="Superman" height="42" width="42">
+	    <a href="http://{{hero.fileref}}"> Link </a>
 	  </div>
     </div>
   </a>
